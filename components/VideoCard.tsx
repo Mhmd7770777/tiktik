@@ -39,7 +39,7 @@ const VideoCard: NextPage<IProps> = ({
     }
   }, [isVideoMuted]);
 
-  if (!isShowingOnHome) {
+  if (isShowingOnHome) {
     return (
       <div>
         <Link href={`/detail/${_id}`}>
