@@ -25,7 +25,7 @@ const Discover = () => {
             <div
               className={topic === item.name ? activeTopicStyle : topicStyle}
             >
-              <span className="font-bold text-2xl xl:text-md">{item.icon}</span>
+              <span className="font-bold text-2xl lg:text-md">{item.icon}</span>
               <span className="font-medium text-sm hidden xl:block">
                 {item.name}
               </span>
